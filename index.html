@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Coding Quiz</title>
+</head>
+
+<body>
+    <header>
+        <span id="highscore">High score: 0</span>
+        <span id="timeLeft">Time remaining: 60 seconds</span>
+    </header>
+    <main>
+        <div>
+            <div>
+                <h2>Coding Quiz!</h2>
+                <button id="startButton">Start!
+            </div>
+            <div>
+                <div id="question"></div>
+                <button id="option1" onClick="isCorrect('option1')">
+                <button id="option2" onClick="isCorrect('option2')">
+            </div>
+            <div id="score"></div>   
+            <div is="saveScore"></div>         
+        </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
